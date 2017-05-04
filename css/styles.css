@@ -1,0 +1,52 @@
+/* Main Styles */
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  display: flex;
+  justify-content: center;
+}
+
+/* Header styles */
+
+.container {
+  background-color: pink;
+  width: 960px;
+}
+
+.navbar {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  /*background-color: lightblue;*/
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding: 1rem;
+  width: auto;
+}
+
+.menu {
+  /*background-color: lightgreen;*/
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu a {
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
