@@ -78,6 +78,11 @@ header {
   text-decoration: none;
 }
 
+.menu .hidden_menu {
+  display: none;
+  visibility: hidden;
+}
+
 /* Main Hero div */
 .main_bg {
   /*border: 2px solid red;*/
@@ -181,4 +186,173 @@ footer {
 footer img {
   height: 1.5rem;
   padding-right: 1rem;
+}
+
+/* ***** Media Queries ************* */
+
+@media only screen and (max-width: 1024px) {
+  header {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  }
+
+    .container {
+      width: 100%;
+    }
+
+    .navbar {
+      margin-top: 0;
+    }
+
+    .main_bg {
+      /*border: 2px solid red;*/
+      width: 20rem;
+      /*position: fixed;*/
+      /*z-index: 500;*/
+      margin-top: 5rem;
+      margin-left: 25rem;
+      margin-right: 2rem;
+      background-color: #fff;
+      text-transform: uppercase;
+      font-size: 1.33rem;
+      font-weight: bold;
+      padding: .75rem 4rem .75rem 4rem;
+    }
+
+    footer {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 4rem;
+      margin-left: 4rem;
+      /*border: 2px solid red;*/
+    }
+} /* end 1024max-width media query */
+
+@media only screen and (max-width: 480px) {
+
+  header {
+  /*background-image: url("../images/glasses-bg.png");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*background-size: cover;*/
+  width: 100%;
+  height: 17rem;
+  /*display: flex;*/
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .menu .hidden_menu {
+    display: block;
+    visibility: visible;
+  }
+
+  .menu .visible_menu {
+    display: none;
+    visibility: hidden;
+  }
+
+  .main_bg {
+    /*border: 2px solid red;*/
+    width: 100%;
+    /*position: fixed;*/
+    /*z-index: 500;*/
+    margin-top: 9rem;
+    margin-left: .005rem;
+    margin-right: 2rem;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .75rem 4rem .75rem 4rem;
+  }
+
+  .logo p {
+    display: none;
+    visibility: hidden;
+  }
+
+  .service_grid {
+    /*background-color: yellow;*/
+    height: 20rem;
+    margin-top: 3.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .service {
+    height: 6rem;
+    width: 8rem;
+    /*border: 1 px solid red;*/
+    color: #000;
+    /*background-color: green;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .service p {
+    font-size: .77rem;
+  }
+
+  .svc_desc {
+    margin-top: -1rem;
+  }
+
+  .company_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info {
+    width: 90%;
+    margin-top: 4rem;
+    margin-bottom: 9rem;
+  }
+
+  .company_headline {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .appt {
+    margin-top: -8rem;
+  }
+
+  .body_copy {
+    font-size: .77rem;
+  }
+
+  .copyright{
+    display: none;
+    visibility: hidden;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
 }
