@@ -35,25 +35,7 @@ header {
   /*margin-top: 1rem;*/
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-}
-
-.service_grid {
-  background-color: yellow;
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-around;
-}
-
-.service {
-  height: 6rem;
-  width: 5rem;
-  border: 1 px solid red;
-  color: white;
-  background-color: green;
-}
+/* Navigation styles */
 
 .navbar {
   background-color: cadetblue;
@@ -97,3 +79,39 @@ header {
 .main_bg {
 
 }
+
+/* Service Area Styles */
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.service_grid {
+  background-color: yellow;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  height: 6rem;
+  width: 5rem;
+  border: 1 px solid red;
+  color: white;
+  background-color: green;
+}
+
+/* Company info styles */
+
+.company_info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  width: 35%;
+  margin-top: 3rem;
+}
+
+/* Footer Styles */
